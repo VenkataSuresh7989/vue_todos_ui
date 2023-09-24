@@ -1,0 +1,16 @@
+@media (max-width:991px){
+	.h1, h1{font-size: 2rem !important;}
+}
+@media (max-width:767px){
+	.visible-sm{visibility: visible;}
+	.sign-in-container, .sign-up-container, .overlay-panel, .overlay-container, .overlay{width: 100%;	}
+	.overlay-left, .overlay-right{transform: translateX(0%)}
+	.overlay-container{left:0;right: 0;transform: translateY(-100%)	}
+
+
+	.container.right-panel-active .overlay-container{transform: translateY(-100%);}
+	.container.right-panel-active .overlay {transform: translateY(50%);}
+	.container.right-panel-active .overlay-right {transform: translateY(20%);}
+	.container.right-panel-active .sign-in-container {transform: translateY(100%);transform: translateX(0);}
+	.container.right-panel-active .sign-up-container{transform: translateY(100%);transform: translateX(0);}
+}

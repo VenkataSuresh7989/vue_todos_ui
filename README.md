@@ -1,1 +1,2 @@
-# vue_todos_ui
+* npm install
+* npm install vue bootstrap bootstrap-vue
